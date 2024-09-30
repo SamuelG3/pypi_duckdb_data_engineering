@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "duck-db-project"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Goncalves <sgs.samuelgoncalves@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+duckdb = "^1.1.1"
+loguru = "^0.7.2"
+pandas = "^2.2.3"
+fire = "^0.6.0"
+pyarrow = "^17.0.0"
+google-auth = "^2.35.0"
+google-cloud-bigquery = "^3.26.0"
+pydantic = "^2.9.2"
+google-cloud-bigquery-storage = "^2.26.0"
+pytest = "^8.3.3"
+ruff = "^0.6.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
